@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alimentación</title>
+    <link rel="stylesheet" href="styles_food.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Registro de Alimentación</h1>
+    <div>
+        <label for="comida">Comida:</label>
+        <input type="text" id="comida">
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora">
+        <button onclick="registrarComida()">Registrar Comida</button>
+    </div>
+    <ul id="registroComidas"></ul>
+</div>
+<script src="script_food.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de Salud</title>
+    <link rel="stylesheet" href="styles_health.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Monitoreo de Salud</h1>
+    <div>
+        <label for="presionArterial">Presión Arterial:</label>
+        <input type="number" id="presionArterial">
+        <label for="ritmoCardiaco">Ritmo Cardíaco:</label>
+        <input type="number" id="ritmoCardiaco">
+        <button onclick="registrarSalud()">Registrar Datos de Salud</button>
+    </div>
+    <table id="tablaSalud">
+        <tr>
+            <th>Presión Arterial</th>
+            <th>Ritmo Cardíaco</th>
+        </tr>
+    </table>
+</div>
+<script src="script_health.js"></script>
+</body>
+
+</html>
